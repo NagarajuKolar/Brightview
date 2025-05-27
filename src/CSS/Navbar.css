@@ -1,0 +1,146 @@
+.navbar-ap {
+    margin-right: 15px !important;
+}
+.navbar-nava {
+  display: flex !important;
+  gap: 34px;
+  margin-left: 214px;
+  justify-content: flex-start;
+}
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+.container-fluid.bg-white {
+  overflow: visible !important;
+  position: relative !important;
+  z-index: 1000;
+}
+.nav-item.dropdown {
+  position: relative;
+}
+.custom{
+  font-weight: 300;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  z-index: 2000;
+  display: none; 
+  margin-top: 0.25rem; 
+}
+
+.nav-item.dropdown.show .dropdown-menu {
+  display: block;
+}
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute; /* DO NOT use static */
+  }
+}
+.navbar-nava li {
+  list-style: none;
+}
+
+.navbar-nava li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-nava li a:hover {
+  color: blue !important;
+}
+
+
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.bright-view {
+  font-weight: 600;
+  color: #007bff;
+  font-size: 20px;
+}
+
+.eye-hospital {
+  font-weight: 600;
+  color: #ffc107;
+  font-size: 20px;
+}
+.enlarged-btn {
+    padding: 0.55rem 2.0rem;
+    font-size: 1.15rem;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-nava {
+    flex-direction: column;     
+    margin-left: 5px !important; 
+    gap: 10px;                   
+    align-items: flex-start;
+  }
+
+  .navbar-ap {
+    margin-right: 8px !important; 
+    text-align: center;
+    width: 100%;
+  }
+
+  .logo-text {
+    font-size: 16px;             
+    align-items: flex-start;
+  }
+
+  .bright-view,
+  .eye-hospital {
+    font-size: 16px;
+    line-height: 1.1;
+  }
+
+  .location-bar {
+    flex-direction: column;
+    align-items: flex-start !important;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .location-bar img {
+    width: 16px;
+    height: auto;
+  }
+
+  .dropdown-menu {
+    position: static !important;  
+    width: 100%;
+  }
+
+  .navbar-toggler {
+    margin-right: 10px;
+  }
+
+  .enlarged-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .navbar-collapse {
+    background: white;
+    padding: 10px;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    padding-left: 0;
+  }
+}

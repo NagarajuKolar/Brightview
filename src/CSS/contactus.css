@@ -1,0 +1,74 @@
+.container-fluid.position-relative img.img-fluid {
+  width: 100%;
+  height: auto;
+}
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .position-absolute.bg-white {
+    width: 80% !important;
+    left: 5% !important;
+    top: 6px !important;
+    height: auto !important;
+
+  }
+}
+
+footer {
+  padding: 2rem 1rem;
+}
+
+footer .col-md-3,
+footer .col {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  footer img.img-fluid {
+    max-width: 120px;
+    height: auto;
+  }
+
+  footer h5 {
+    font-size: 1.2rem;
+  }
+
+  footer p,
+  footer a,
+  footer li {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 576px) {
+  footer .row-cols-md-5 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .col-md-3,
+  footer .col {
+    width: 100%;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .position-absolute.bg-white {
+    padding: 1rem !important;
+  }
+
+  .position-absolute.bg-white h5 {
+    font-size: 1.1rem;
+  }
+
+  .position-absolute.bg-white p,
+  .position-absolute.bg-white a,
+  .position-absolute.bg-white span {
+    font-size: 0.95rem;
+  }
+
+  .position-absolute.bg-white img {
+    height: 25px;
+  }
+}

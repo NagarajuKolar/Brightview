@@ -1,0 +1,75 @@
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 5%; 
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    filter: var(--bs-carousel-control-icon-filter);
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+}
+.cal-icon {
+  width: 22px;
+  height: 28px;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+
+.news-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+
+.read-more {
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+/* @media (max-width: 576px) {
+  .news-card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+} */
+ @media (max-width: 576px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .news-card {
+    margin-bottom: 20px;
+  }
+  .nu1, .nu2, .nu3 {
+    width: 100% !important;
+    height: auto !important;
+    object-fit: cover;
+    border-radius: 8px;
+  } 
+  .news-card .image-fluid {
+    width: 30px;
+    height: 23px;
+    object-fit: contain;
+  }
+
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}

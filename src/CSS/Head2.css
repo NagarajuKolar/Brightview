@@ -1,0 +1,101 @@
+.head2-container {
+    height: 601px;
+    padding: 0 60px;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.left-text {
+    max-width: 500px;
+}
+
+.left-text h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.left-text p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+.right-image {
+    position: relative;
+    right: 190px;
+}
+
+
+.ellipse-img {
+    position: absolute;
+    top: -42px;
+    left: -46px;
+    width: 450px;
+    z-index: 1;
+    right: 42px;
+}
+.doctor-img {
+    position: relative;
+    width: 360px;
+    z-index: 2;
+}
+.card {
+    position: absolute;
+    background-color: white;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    font-size: 16px;
+    width: max-content;
+    width: 300px !important;
+    height: 71px;
+    padding-left: 50px;
+    padding-top: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+    z-index: 3;
+  
+}
+
+
+.phonecard{
+    position: absolute;
+    background-color: white;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 25px;
+    width: 190px;
+    height: 75px;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.2));
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+}
+
+.card1 {
+    top: 140px;
+    left: 43%;
+    transform: translateX(22%);
+}
+.icon{
+        margin: -30px;
+    margin-bottom: -25px;
+}
+
+.card2 {
+    top: 340px;
+    left: 44%;
+    transform: translateX(20%);
+}
+
+.card3 {
+    top: 100px;
+    right: 135px;
+    transform: translateY(-10%);
+    z-index: 10;
+}
+
+
