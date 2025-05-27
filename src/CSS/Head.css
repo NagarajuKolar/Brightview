@@ -102,8 +102,10 @@
   }
 
   .buttons .btn {
-    font-size: 0.9rem;
-    padding: 8px 5px;
+       font-size: 0.7rem;
+        padding: 4px 3px;
+         gap: 1px;
+    };
   
   }
 
@@ -113,10 +115,10 @@
   }
 
 .hospi-image{
-  height: 450px;
+  height: auto;
 }
 
-}
+
   
 
 
