@@ -10,7 +10,7 @@ function AboutUs() {
             <h2 className="mt-3 mb-5 text-center  abouttext">About <span className='text-primary'>Us</span></h2>
             <div className="container mt-3 ">
                 <div className="row">
-                    <div className="col-md-6 px-5" >
+                    <div className="col-md-6 px-3" >
                         <img
                             src={Image} alt="img"
                             style={{
@@ -21,9 +21,9 @@ function AboutUs() {
                         />
                     </div>
 
-                    <div className="col-md-6">
-                        <div >
-                            <h2 className='mobile-margin text-start'>Bright View <span className="text-primary">Eye Hospital</span></h2>
+                    <div className="col-md-6 m-0 p-0">
+                        <div className='container p-0 content'>
+                            <h2 className='mobile-margin text-start '>Bright View <span className="text-primary">Eye Hospital</span></h2>
                             <p className="fw-medium mt-4">At Bright View Eye Hospital, With A Team Of Experienced Ophthalmologists And Advanced Diagnostic And Surgical Equipment, We Provide Comprehensive Eye Care For Patients Of All Ages. Your Vision Is Our Priority.</p>
                         </div>
                         <div className="pt-3">
@@ -34,7 +34,7 @@ function AboutUs() {
                             <h3 className="text-primary"><img className="pe-2" src={HandshakeLogo} alt="HandLogo" />Values</h3>
                             <p className=" fw-medium">Our Vision Is To Become The Premier Destination For Those Seeking Top-Notch Eye Care, Setting The Standard For Excellence In Hyderabad And Beyond.</p>
                         </div>
-                        <div className="row text-center mt-5 bg-warning rounded p-4 text-dark mobile-width">
+                        <div className="d-flex text-center mt-5 pe-1 bg-warning rounded p-3 text-dark mobile-width w-100">
                               <div className="col-md-4 d-flex flex-column align-items-center justify-content-center  border-end">
                                 <h3>98.2%</h3>
                                 <p>Succesful Operations</p>

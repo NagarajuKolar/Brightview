@@ -59,7 +59,7 @@ function Contactus() {
                 <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5  foot w-100 d-flex justify-content-center align-items-center"
                 style={{ backgroundImage: `url(${eye})` , backgroundRepeat:'no-repeat',backgroundPosition: 'center',}}>
 
-                    <div className="col-md-3 mb-3 ms-5">
+                    <div className="col-md-3 mb-3 ">
                         <img className="img-fluid px-3" src={logohos} alt="map" />
                         <p>We Are Dedicated To Preserving And Enhancing <br />
                             Your Vision With Compassionate,Expert Care

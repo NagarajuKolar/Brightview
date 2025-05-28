@@ -114,7 +114,7 @@ function Doctors() {
         </button>
       </div>
 
-      <h2 className="mb-4 text-center specialist-text">News & <span className='text-primary'>Updates</span></h2>
+      <h2 className="mb-3 py-3 text-center specialist-text">News & <span className='text-primary'>Updates</span></h2>
       <div className="container">
         <div className="row">
           <div className="col-md-4 mb-4">

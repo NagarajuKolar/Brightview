@@ -5,6 +5,9 @@
 body {
   overflow-x: hidden;
 }
+footer{
+  padding: 0px !important;
+}
 .foot{
   height: 507px;
   width: 1440px;

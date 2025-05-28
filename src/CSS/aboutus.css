@@ -38,7 +38,9 @@
   .mobile-width .col-md-4:last-child {
     border-bottom: none !important;
   }
-
+.content{
+  text-align: justify;
+}
 }
 
 

@@ -35,6 +35,10 @@ function Faq() {
       question: "Can children undergo eye exams?",
       answer: "Yes, children should regularly undergo eye exams to detect any early vision issues.",
     },
+        {
+      question: "Can children undergo eye exams?",
+      answer: "Yes, children should regularly undergo eye exams to detect any early vision issues.",
+    },
   ];
 
   const [activeIndex, setActiveIndex] = useState(null);
