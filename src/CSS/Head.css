@@ -87,40 +87,46 @@
 
 @media (max-width: 768px) {
   .text h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.4rem;
   }
 
+  .text {
+    top: 55%;
+    padding: 0 0.5rem;
+  }
 
-    .buttons {
-    bottom: 5px;
+  .hospi-image {
+    height: 370px;
+    
+    object-fit: cover;
+  }
+
+  .buttons {
+    bottom: 10px;
     right: 0;
     left: 0;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 10px;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 100px;
-
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
   }
 
   .buttons .btn {
-       font-size: 0.7rem;
-        padding: 4px 3px;
-         gap: 1px;
-    };
-  
+    font-size: 0.75rem;
+    padding: 6px 10px;
+    gap: 4px;
+    white-space: nowrap;
   }
 
-  .custom-button {
-    margin-left: 0;
-    font-size: 0.95rem;
+  .buttons img {
+    width: 10px;
+    height: 10px;
   }
 
-.hospi-image{
-  height: auto;
+  .btn-custom {
+    display: none !important;
+  }
 }
-
-
-  
-
-

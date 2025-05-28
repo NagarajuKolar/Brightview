@@ -15,7 +15,7 @@ function Head() {
   const [showAppointment, setShowAppointment] = useState(false);
   return (
     <>
-      <div className="container-fluid w-100">
+      <div className="container-fluid p-0 m-0 w-100">
         <img src={Hospi} alt="img " className="image hospi-image" />
         <div className="text ">
           <h1>Eye Specialists  </h1>

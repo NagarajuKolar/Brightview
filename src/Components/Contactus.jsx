@@ -133,7 +133,7 @@ function Contactus() {
                     </div>
 
                 </footer>
-                <div className="bg-light  d-flex justify-content-center align-items-center">
+                <div className="bg-light  d-flex justify-content-center align-items-center" style={{position:'static'}}>
                     <p className="mb-0 text-center">
                         Copy Right Bright View Eye Care Hospital.com
                     </p>

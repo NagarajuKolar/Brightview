@@ -16,19 +16,37 @@ p.desc {
   text-align: justify;
 }
 
-
 @media (max-width: 576px) {
   h2.mobile-margin,
   p {
     margin-top: 15px;
   }
+    .col-md-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-shadow: inset;
+  }
+    p.desc {
+    font-size: 10px !important;
+    text-align: justify;
+  }
+   .abouttext {
+    font-size: 20px  !important;
+  }
 
   .mobile-width {
     width: 100% !important;
-    justify-content: center !important;
     flex-direction: column !important;
-    text-align: center;
+    padding: 1rem !important;
+    gap: 1rem;
   }
+  .col-md-6.content-box {
+  background-color: #fff;
+  padding: 1rem 1.2rem !important;
+  margin-top: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
 
 
     .mobile-width .col-md-4 {
@@ -43,9 +61,10 @@ p.desc {
   .mobile-width .col-md-4:last-child {
     border-bottom: none !important;
   }
-.content{
-  text-align: justify;
-}
+
+  .content{
+    text-align: justify;
+  }
 }
 
 

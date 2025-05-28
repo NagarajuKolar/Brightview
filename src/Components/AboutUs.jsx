@@ -21,7 +21,7 @@ function AboutUs() {
                         />
                     </div>
 
-                    <div className="col-md-6 mt-2 p-0 ">
+                    <div className="col-md-6 mt-2 p-0 content-box ">
                         <div className='container p-0' >
                             <h2 className='mobile-margin text-start '>Bright View <span className="text-primary">Eye Hospital</span></h2>
                             <p className=" desc mt-4">At Bright View Eye Hospital, With A Team Of Experienced Ophthalmologists And Advanced Diagnostic And Surgical Equipment, We Provide Comprehensive Eye Care For Patients Of All Ages. Your Vision Is Our Priority.</p>

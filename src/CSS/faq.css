@@ -196,6 +196,14 @@ bottom: 44px;
 }
 
 @media (max-width: 576px) {
+
+  .img.left-top,
+  .img.left-bottom,
+  .img.right-top,
+  .img.right-bottom {
+    display: none;
+  }
+
   .faq-container {
     flex-direction: column-reverse; 
     padding: 20px;
