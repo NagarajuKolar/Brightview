@@ -11,6 +11,7 @@ footer{
 .foot{
   height: 507px;
   width: 1440px;
+  position: relative; 
 }
 .loc{
       font-size: 36px;
@@ -57,7 +58,9 @@ footer .col {
     display: flex;
     flex-direction: column;
   }
-
+.copyright{
+  margin-top: 20px;
+}
   footer .col-md-3,
   footer .col {
     width: 100%;
