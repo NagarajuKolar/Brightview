@@ -18,8 +18,8 @@ function Navbar() {
             <div className="container-fluid bg-white" >
 
                 <div className="location-bar bg-light  px-3 d-flex justify-content-end align-items-center">
-                    <div className="d-flex align-items-center">
-                        <img src={loc} alt="img" className="image-fluid px-2" />
+                    <div className="d-flex align-items-center ">
+                        <img src={loc} alt="img" className="image-fluid px-1 homeimg" />
                         <a
                             href="https://www.google.com/maps?q=H.O.+6-3-1092/A,+A-Block,+Shanti+Sikhara+Apartments"
                             target="_blank"
@@ -29,29 +29,26 @@ function Navbar() {
                             H.O. 6-3-1092/A, A-Block, Shanti Sikhara Apartments
                         </a>
 
-                        <img src={phoneplus} alt="img" className="image-fluid px-2" />
+                        <img src={phoneplus} alt="img" className="image-fluid px-2 homeimg" />
                         <span className="me-3">7207573049</span>
-
-                        <div className="dropdown">
-                            <button className="btn dropdown-toggle p-0 border-0 bg-transparent" id="netDropdown" data-bs-toggle="dropdown"aria-expanded="false"
-                                style={{ lineHeight: 0 }}>
-                                <img
-                                    src={net} alt="Network" width="19.13" height="15.13" 
-                                    style={{ cursor: 'pointer' }}
-                                />
-                            </button>
-                            <ul className="dropdown-menu " aria-labelledby="netDropdown">
-                                <li><a className="dropdown-item" href="#">English</a></li>
-                            </ul>
-                        </div>
-
-
-
+                    </div>
+                    <div className="dropdown">
+                        <button className="btn dropdown-toggle p-0 border-0 bg-transparent" id="netDropdown" data-bs-toggle="dropdown" aria-expanded="false"
+                            style={{ lineHeight: 0 }}>
+                            <img className='lang'
+                                src={net} alt="Network" width="22.0" height="18.0"
+                                style={{ cursor: 'pointer' }}
+                            />
+                        </button>
+                        <ul className="dropdown-menu " aria-labelledby="netDropdown">
+                            <li><a className="dropdown-item" href="#">English</a></li>
+                        </ul>
                     </div>
                 </div>
 
 
-                <header className="navbar navbar-expand-md navbar-light bg-white w-100 py-3">
+
+                <header className="navbar navbar-expand-md navbar-light bg-white w-100 py-1">
                     <div className="container-fluid">
                         <a href="/" className="d-flex align-items-center text-decoration-none navbar-logo">
                             <img src={logohos} alt="Logo" width="80.66" height="60.57" />

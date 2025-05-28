@@ -42,7 +42,10 @@ footer .col {
     max-width: 120px;
     height: auto;
   }
-
+  .foot {
+    width: 100% !important; 
+    height: auto !important; 
+  }
   footer h5 {
     font-size: 1.2rem;
   }
@@ -72,6 +75,7 @@ footer .col {
   padding: 10px 0;
   margin-top: auto;
   width: 100%;
+   flex-shrink: 0; 
 }
 
 
@@ -99,4 +103,5 @@ footer .col {
   .position-absolute.bg-white img {
     height: 25px;
   }
+  
 }

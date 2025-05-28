@@ -37,11 +37,6 @@
 .nav-item.dropdown.show .dropdown-menu {
   display: block;
 }
-@media (min-width: 768px) {
-  .navbar-expand-md .navbar-nav .dropdown-menu {
-    position: absolute;
-  }
-}
 .navbar-nava li {
   list-style: none;
 }
@@ -54,9 +49,6 @@
 .navbar-nava li a:hover {
   color: blue !important;
 }
-
-
-
 .logo-text {
   display: flex;
   flex-direction: column;
@@ -83,42 +75,39 @@
 
 
 @media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .dropdown-menu {
+    position: absolute;
+  }
   .navbar-nava {
     flex-direction: column;     
     margin-left: 5px !important; 
     gap: 10px;                   
     align-items: flex-start;
   }
-
+  .homeimg{
+  padding: 0px !important;
+}
   .navbar-ap {
     margin-right: 8px !important; 
     text-align: center;
     width: 100%;
   }
-
   .logo-text {
     font-size: 16px;             
-    align-items: flex-start;
-    
+    align-items: flex-start;  
   }
-
   .bright-view,
   .eye-hospital {
     font-size: 16px;
     line-height: 1.1;
   }
-
-  .location-bar {
-    flex-direction: column;
-    align-items: flex-start !important;
-    padding: 10px;
-    font-size: 14px;
-  }
-
   .location-bar img {
-    width: 16px;
-    height: auto;
+    width: 35px;
+    height: 20px;
   }
+.location-bar{
+  padding: 0px !important;
+}
 
   .dropdown-menu {
     position: static !important;  
@@ -148,5 +137,13 @@
 
   .navbar-nav .nav-link {
     padding-left: 0;
+  }
+}
+
+
+  @media (max-width: 575.98px) {
+  .location-bar {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
