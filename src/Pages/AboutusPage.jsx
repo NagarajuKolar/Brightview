@@ -1,13 +1,13 @@
 import React from 'react'
-import AboutUs from "./AboutUs";
-import Navbar from './Navbar';
+// import AboutUs from "./AboutUs";
+// import Navbar from './Navbar';
 import image from '../Statics/Images/aboutuspagepic.png';
 import image2 from '../Statics/Images/aboutuspagepic2.png';
 import surimage from '../Statics/Images/surgery.png'
 import Eye from '../Statics/Images/Eye.png'
 import Mission from '../Statics/Images/Mission.svg';
 import HandshakeLogo from '../Statics/Images/handshake.svg';
-import Footer from './Footer';
+import Footer from '../Components/Footer';
 function AboutUsPage() {
   return (
     <>
@@ -15,7 +15,7 @@ function AboutUsPage() {
         <img src={image} alt="img" className="image-fluid w-100" />
       </div>
       <div className="container mt-5">
-        <div className="row w-100">
+        <div className="row ">
           <div className="col-md-6 px-3">
             <img src={image2} alt="img" className="image-fluid " />
           </div>
@@ -69,7 +69,7 @@ function AboutUsPage() {
           </div>
         </div>
       </div>
-<Footer/>
+<Footer/> 
     </>
 
   )

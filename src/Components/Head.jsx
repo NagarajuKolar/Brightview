@@ -20,16 +20,16 @@ function Head() {
         <div className="text ">
           <h1>Eye Specialists  </h1>
           <h1>You Can <span className="span">Trust</span></h1>
-          <button type="button" onClick={() => setShowAppointment(true)} className="btn btn-primary   btn-custom d-none d-md-block  me-2">
+          <button type="button" onClick={() => setShowAppointment(true)} className="btn btn-primary fw-bold  btn-custom d-none d-md-block  me-2">
             Book An Appointment
           </button>
         </div>
         <div className="buttons ">
-          <button type="button" onClick={() => setShowAppointment(true)} className="btn btn-primary rounded-pill me-2">
-            <img src={book} alt="img" className="image-fluid px-1" />Book An Appointment
+          <button type="button" onClick={() => setShowAppointment(true)} className="btn btn-primary  rounded-pill me-2">
+            <img src={book} alt="img" className="image-fluid  px-1" />Book An Appointment
           </button>
           {showAppointment && <Appointment onClose={() => setShowAppointment(false)} />}
-          <button type="button" className="btn btn-success rounded-pill me-2">
+          <button type="button" className="btn btn-success  wts-btn rounded-pill me-2">
             <img src={whatsapp} alt="img" className="image-fluid px-1" /> Chat With Us
           </button>
         </div>

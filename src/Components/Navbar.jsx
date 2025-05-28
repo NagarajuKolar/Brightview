@@ -100,11 +100,11 @@ function Navbar() {
                             </ul>
 
 
-                            <div className="text-end navbar-ap">
+                            <div className="text-end  navbar-ap">
                                 <button
                                     type="button"
                                     onClick={() => setShowAppointment(true)}
-                                    className="btn btn-primary rounded-pill enlarged-btn me-0">
+                                    className="btn btn-primary rounded-pill  fw-bold enlarged-btn me-0">
                                     {/* <img src={book} alt="img" className="image-fluid px-2" /> */}
                                     Book An Appointment
                                 </button>

@@ -1,4 +1,7 @@
-
+.specialist-text{
+    font-size: 36px;
+    font-weight: 700;
+}
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
     top: 0;

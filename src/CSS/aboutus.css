@@ -1,11 +1,9 @@
 
 .abouttext
 {
-    font-family: Montserrat;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
-    letter-spacing: 0%;
-    line-height: 100%;
+
 }
 .border-end {
   border-right-color: rgb(31, 24, 24) !important;

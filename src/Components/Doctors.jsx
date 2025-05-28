@@ -20,7 +20,7 @@ function Doctors() {
   return (
     <>
       <div className="position-relative py-5">
-        <h2 className="mb-4 text-center">
+        <h2 className="mb-4 text-center specialist-text">
           Meet Our <span className="text-primary">Specialists</span>
         </h2>
 
@@ -114,7 +114,7 @@ function Doctors() {
         </button>
       </div>
 
-      <h2 className="mb-4 text-center">News & Update</h2>
+      <h2 className="mb-4 text-center specialist-text">News & <span className='text-primary'>Updates</span></h2>
       <div className="container">
         <div className="row">
           <div className="col-md-4 mb-4">
@@ -136,7 +136,7 @@ function Doctors() {
           <div className="col-md-4 mb-4">
             <div className="news-card p-2">
               <img className="img-fluid rounded nu2" src={nu2} alt="nu2" />
-              <h5 className="mt-3 fw-bold">Prepare To Speak With Your Eye Specialist</h5>
+              <h5 className="mt-3 fw-bold ">Prepare To Speak With Your Eye Specialist</h5>
               <p className="text-muted">
                 <i className="bi bi-calendar3 "></i><img src={book} alt="img" className="image-fluid cal-icon pe-1" /> May 17,2025
               </p>

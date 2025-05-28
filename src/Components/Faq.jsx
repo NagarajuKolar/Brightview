@@ -6,9 +6,20 @@ import lefttop from '../Statics/Images/lefttop.png';
 import leftbottom from '../Statics/Images/leftbottom.png';
 import righttop from '../Statics/Images/righttop.png';
 import rightbottom from '../Statics/Images/rightbottom.png';
+import main1 from '../Statics/Images/Ellipse 8.png';
+import lefttop1 from '../Statics/Images/Ellipse 9.png';
+import leftbottom1 from '../Statics/Images/Ellipse 10.png';
+import righttop1 from '../Statics/Images/Ellipse 11.png';
+import rightbottom1 from '../Statics/Images/Ellipse 12.png';
+import main2 from '../Statics/Images/Ellipse 13.png';
+import lefttop2 from'../Statics/Images/Ellipse 14.png';
+import leftbottom2 from '../Statics/Images/Ellipse 15.png';
+import righttop2 from '../Statics/Images/Ellipse 16.png';
+import rightbottom2 from '../Statics/Images/Ellipse 17.png';
 import quote from '../Statics/Images/quote.svg';
 import plus from '../Statics/Images/plus.svg';
 import minus from '../Statics/Images/minus.svg';
+
 
 function Faq() {
   const data = [
@@ -63,57 +74,19 @@ function Faq() {
         </div>
       </div>
 
-      {/* 
-        <div className="faq-item active">
-                  <div className="faq-question">
-                    <span className="faq-number">1</span>
-                    <span className="faq-text">What Services Do Eye Hospitals Provide?</span>
-                    <img className="faq-icon" src={minus} alt="doc" />
-
-                  </div>
-                  <div className="faq-answer">
-                    Eye Hospitals Typically Offer Services Like Glaucoma Treatment, Retina Services, Pediatric Ophthalmology, And Emergency Eye Care.
-                  </div>
-                </div> */}
-
-      {/* <div className="faq-item">
-              <div className="faq-question">
-                <span className="faq-number">2</span>
-                <span className="faq-text">What is LASIK surgery?</span>
-                <img className="faq-icon" src={plus} alt="doc" />
-              </div> */}
-      {/* <div className="faq-answer">
-          LASIK is a popular vision correction surgery using a laser to reshape the cornea.
-        </div> */}
-      {/* </div> */}
-      {/* 
-            <div className="faq-item">
-              <div className="faq-question">
-                <span className="faq-number">3</span>
-                <span className="faq-text">Can children undergo eye exams?</span>
-                <img className="faq-icon" src={plus} alt="doc" />
-              </div>
-
-            </div> */}
-
-
-
-
-
-
-      <h2 className='testimon mt-4 mb-5 text-center test-custom'>Testimonials</h2>
-      <div className="container-fluid carousel slide testimonial-container testimonial-container" id="testimonialCarousel" data-bs-ride="carousel" data-bs-interval="4000" style={{ width: '100%' }}>
-        <img src={lefttop} alt="User 1" className="img left-top" />
-        <img src={leftbottom} alt="User 2" className="img left-bottom" />
-        <img src={main} alt="Main user" className="img main" />
-        <img src={righttop} alt="User 3" className="img right-top" />
-        <img src={rightbottom} alt="User 4" className="img right-bottom" />
+      <h1 className='testimon mt-5 mb-5 text-center  testi-text'>Testimonials</h1>
+      <div className="container-fluid  bg-primary carousel slide w-100 " id="testimonialCarousel" data-bs-ride="carousel" style={{ width: '100%' }}>
         <div className="quote-mark left"><img className="p-1 img-fluid" src={quote} alt="images" /></div>
         <div className="quote-mark right"><img className="p-1 img-fluid" src={quote} alt="images" /></div>
 
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <div className="testimonial-text">
+            <img src={lefttop} alt="User 1" className="img left-top" />
+            <img src={leftbottom} alt="User 2" className="img left-bottom" />
+            <img src={main} alt="Main user" className="img main" />
+            <img src={righttop} alt="User 3" className="img right-top" />
+            <img src={rightbottom} alt="User 4" className="img right-bottom" />
+            <div className="testimonial-text test-bt">
               “I Was Nervous About Getting LASIK, But The Doctors At [Hospital Name] Made Me Feel Completely At Ease. The Procedure Was Quick And Painless, And Now I Can See Clearly Without Glasses For The First Time In 15 Years!”
               <br />
               <span className="author">― Priya D., Caregiver</span>
@@ -121,7 +94,12 @@ function Faq() {
           </div>
 
           <div className="carousel-item">
-            <div className="testimonial-text">
+            <img src={lefttop1} alt="User 1" className="img left-top" />
+            <img src={leftbottom1} alt="User 2" className="img left-bottom" />
+            <img src={main1} alt="Main user" className="img main" />
+            <img src={righttop1} alt="User 3" className="img right-top" />
+            <img src={rightbottom1} alt="User 4" className="img right-bottom" />
+            <div className="testimonial-text test-bt">
               “I Was Nervous About Getting LASIK, But The Doctors At [Hospital Name] Made Me Feel Completely At Ease. The Procedure Was Quick And Painless, And Now I Can See Clearly Without Glasses For The First Time In 15 Years!”
               <br />
               <span className="author">― Ramesh K., Engineer</span>
@@ -129,7 +107,12 @@ function Faq() {
           </div>
 
           <div className="carousel-item">
-            <div className="testimonial-text">
+            <img src={lefttop2} alt="User 1" className="img left-top" />
+            <img src={leftbottom2} alt="User 2" className="img left-bottom" />
+            <img src={main2} alt="Main user" className="img main" />
+            <img src={righttop2} alt="User 3" className="img right-top" />
+            <img src={rightbottom2} alt="User 4" className="img right-bottom" />
+            <div className="testimonial-text test-bt">
               “I Was Nervous About Getting LASIK, But The Doctors At [Hospital Name] Made Me Feel Completely At Ease. The Procedure Was Quick And Painless, And Now I Can See Clearly Without Glasses For The First Time In 15 Years!”
               <br />
               <span className="author">― Ramesh K., Engineer</span>
@@ -137,7 +120,7 @@ function Faq() {
           </div>
         </div>
 
-        <div className="carousel-indicators dots">
+        <div className="carousel-indicators dots mt-3">
           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>

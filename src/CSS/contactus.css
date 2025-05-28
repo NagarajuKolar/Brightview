@@ -5,6 +5,14 @@
 body {
   overflow-x: hidden;
 }
+.foot{
+  height: 507px;
+  width: 1440px;
+}
+.loc{
+      font-size: 36px;
+    font-weight: 700;
+}
 
 @media (max-width: 768px) {
   .position-absolute.bg-white {

@@ -7,7 +7,7 @@ import HandshakeLogo from '../Statics/Images/handshake.svg';
 function AboutUs() {
     return (
         <>
-            <h2 className="mt-3 mb-5 text-center text-primary abouttext">About Us</h2>
+            <h2 className="mt-3 mb-5 text-center  abouttext">About <span className='text-primary'>Us</span></h2>
             <div className="container mt-3 ">
                 <div className="row">
                     <div className="col-md-6 px-5" >

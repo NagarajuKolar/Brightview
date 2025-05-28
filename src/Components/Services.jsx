@@ -14,7 +14,7 @@ function Services() {
   return (
     <>
   <div className="container">
-  <h1 className="mt-5 mb-3 text-center">
+  <h1 className="mt-5 mb-3 text-center services-text">
     Our Best <span className="text-primary">Services</span>
   </h1>
   <p style={{ fontFamily: 'source sans Pro, sans-serif' }} className="fs-4 px-4 text-center text-muted">

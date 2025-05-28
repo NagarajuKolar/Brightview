@@ -8,6 +8,7 @@ import review from '../Statics/Images/review.svg';
 import logohos from '../Statics/Images/logohos.svg';
 import direction from '../Statics/Images/direction.png';
 import { Link } from 'react-router-dom';
+import eye from '../Statics/Images/bg-eye.png';
 
 
 function Contactus() {
@@ -16,7 +17,7 @@ function Contactus() {
 
 
             <div>
-                <h2 className="mt-3 mb-3 text-center">Our Location</h2>
+                <h2 className="mt-3 mb-3 text-center loc">Our Location</h2>
                 <div className="container-fluid position-relative">
 
 
@@ -55,8 +56,8 @@ function Contactus() {
             </div>
 
 
-            <div className=" bg-grey">
-                <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5  foot w-100 d-flex justify-content-center align-items-center"
+                style={{ backgroundImage: `url(${eye})` , backgroundRepeat:'no-repeat',backgroundPosition: 'center',}}>
 
                     <div className="col-md-3 mb-3 ms-5">
                         <img className="img-fluid px-3" src={logohos} alt="map" />
@@ -137,7 +138,6 @@ function Contactus() {
                         Copy Right Bright View Eye Care Hospital.com
                     </p>
                 </div>
-            </div>
         </>
     );
 }

@@ -1,19 +1,19 @@
 
 .testimon{
-   margin-bottom: 80PX;
+   margin-bottom: 80PX !important;
 }
-.testimonial-container {
-  background: #2d8fff;
-  border-radius: 10px;
-  text-align: center;
+
+
+.carousel-inner {
+  overflow: visible;  
+}
+
+.carousel-item {
   position: relative;
-  width: 100%;
-  max-width: 1400 px;
+  padding-top: 120px;
+  border-radius: 8px;
+  text-align: center;
   color: white;
-  overflow: visible;
-  padding: 100px 20px 60px; 
-  margin-top:80px;
-  padding-top: 50px;
 }
 
 .img {
@@ -23,17 +23,21 @@
   object-fit: cover;
   position: absolute;
 }
-
+.test-bt
+{
+  margin-bottom: 50px !important;
+  margin-top: -10px !important;
+}
 .img.main {
-  width: 140px;
-  height: 140px;
-  top: -70px; 
+  position: absolute;
+  top: -60px;                  
   left: 50%;
   transform: translateX(-50%);
-  border: 4px solid white;
-  z-index: 2;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  z-index: 20;
 }
-
 .img.left-top {
   top: 20px;
   left: 40px;
@@ -57,11 +61,11 @@
 .testimonial-text {
   font-size: 1.1rem;
   font-weight: 400;
-  margin: 40px auto 20px;
+  margin: 0px auto 20px;
   max-width: 700px;
   line-height: 1.8;
   color: white;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .author {
@@ -77,10 +81,12 @@
   position: absolute;
   color: rgba(255, 255, 255, 0.2);
 }
-
+.quote-mark svg {
+  fill: white; 
+}
 .quote-mark.left {
-  top: 100px;
-  left: 80px;
+  top: 80px;
+  left: 150px;
 }
 
 .quote-mark.right {
@@ -183,12 +189,11 @@ bottom: 44px;
   transform: scale(1.3);
 }
 
-.test-custom{
-  font-family: Montserrat;
-  font-weight: 700;
-  font-size: 36px;
-}
+.testi-text{
+    font-size: 36px;
+    font-weight: 700;
 
+}
 
 @media (max-width: 576px) {
   .faq-container {

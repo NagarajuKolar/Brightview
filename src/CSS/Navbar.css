@@ -1,10 +1,10 @@
 .navbar-ap {
-    margin-right: 15px !important;
+    margin-right: 20px !important;
 }
 .navbar-nava {
   display: flex !important;
   gap: 34px;
-  margin-left: 214px;
+  margin-left: 180px;
   justify-content: flex-start;
 }
 .navbar {
@@ -21,7 +21,7 @@
 }
 .custom{
   font-weight: 300;
-  font-size: 20px;
+  font-size: 18px;
   font-family: sans-serif;
 }
 .dropdown-menu {

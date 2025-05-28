@@ -70,14 +70,14 @@ function Footer() {
                         <h5 className="fw-bold">Contact Us</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-3">
-                                <a href="#" className="nav-link p-0 text-body-secondary"><img className="img-fluid px-2" src={phonelogo} alt="map" />7277570490</a>
+                                <a href="#" className="nav-link p-0 text-body-secondary"><img className="img-fluid pe-2" src={phonelogo} alt="map" />7277570490</a>
                             </li>
                             <li className="nav-item mb-3">
-                                <a href="#" className="nav-link p-0 text-body-secondary"><img className="img-fluid px-2" src={maillogo} alt="map" />Netrapuradhan@gmail.com</a>
+                                <a href="#" className="nav-link p-0 text-body-secondary"><img className="img-fluid pe-2" src={maillogo} alt="map" />Netrapuradhan@gmail.com</a>
                             </li>
                             <li className="nav-item mb-3">
                                 <a href="#" className="nav-link p-0 text-body-secondary d-flex">
-                                    <img className="img-fluid px-2"style={{marginBottom:"55px"}} src={locationlogo} alt="map" />
+                                    <img className="img-fluid pe-2"style={{marginBottom:"55px"}} src={locationlogo} alt="map" />
                                     <div>
                                         <div>H.O.6-3-1092/A, A-Block,</div>
                                         <div>Shanti Sikhara Apartments, Somajiguda.</div>
