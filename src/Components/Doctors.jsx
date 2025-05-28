@@ -27,7 +27,7 @@ function Doctors() {
         <div className="container position-relative">
           <div id="doctorCarousel" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
-              <div className="carousel-item active">
+              <div className="carousel-item  d-carou active">
                 <div className="row justify-content-center">
                   {doctors.map((doctor, index) => (
                     <div className="col-md-3 px-1 d-flex justify-content-center" key={index}>

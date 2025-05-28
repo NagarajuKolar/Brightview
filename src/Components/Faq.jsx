@@ -75,7 +75,7 @@ function Faq() {
       </div>
 
       <h1 className='testimon mt-5 mb-5 text-center  testi-text'>Testimonials</h1>
-      <div className="container-fluid  bg-primary carousel slide w-100 " id="testimonialCarousel" data-bs-ride="carousel" style={{ width: '100%' }}>
+      <div className="container-fluid  bg-primary carousel slide w-100 " id="testimonialCarousel" data-bs-ride="carousel"data-bs-interval="3000" style={{ width: '100%' }}>
         <div className="quote-mark left"><img className="p-1 img-fluid" src={quote} alt="images" /></div>
         <div className="quote-mark right"><img className="p-1 img-fluid" src={quote} alt="images" /></div>
 
