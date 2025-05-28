@@ -19,15 +19,15 @@ function Doctors() {
 
   return (
     <>
-      <div className="position-relative py-5">
+      <div className="position-relative py-3">
         <h2 className="mb-4 text-center specialist-text">
           Meet Our <span className="text-primary">Specialists</span>
         </h2>
 
         <div className="container position-relative">
           <div id="doctorCarousel" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-inner">
-              <div className="carousel-item  d-carou active">
+            <div className="carousel-inner d-carou">
+              <div className="carousel-item  active">
                 <div className="row justify-content-center">
                   {doctors.map((doctor, index) => (
                     <div className="col-md-3 px-1 d-flex justify-content-center" key={index}>

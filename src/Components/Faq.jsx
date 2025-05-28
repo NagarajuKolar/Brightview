@@ -79,8 +79,8 @@ function Faq() {
         <div className="quote-mark left"><img className="p-1 img-fluid" src={quote} alt="images" /></div>
         <div className="quote-mark right"><img className="p-1 img-fluid" src={quote} alt="images" /></div>
 
-        <div className="carousel-inner">
-          <div className="carousel-item active">
+        <div className="carousel-inner ">
+          <div className="carousel-item  f-caro active">
             <img src={lefttop} alt="User 1" className="img left-top" />
             <img src={leftbottom} alt="User 2" className="img left-bottom" />
             <img src={main} alt="Main user" className="img main" />
@@ -93,7 +93,7 @@ function Faq() {
             </div>
           </div>
 
-          <div className="carousel-item">
+          <div className="carousel-item f-caro">
             <img src={lefttop1} alt="User 1" className="img left-top" />
             <img src={leftbottom1} alt="User 2" className="img left-bottom" />
             <img src={main1} alt="Main user" className="img main" />
@@ -106,7 +106,7 @@ function Faq() {
             </div>
           </div>
 
-          <div className="carousel-item">
+          <div className="carousel-item f-caro">
             <img src={lefttop2} alt="User 1" className="img left-top" />
             <img src={leftbottom2} alt="User 2" className="img left-bottom" />
             <img src={main2} alt="Main user" className="img main" />
