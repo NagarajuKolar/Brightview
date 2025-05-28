@@ -102,7 +102,7 @@
     object-fit: cover;
   }
   .mobile-text{
-    font-size: 32px;
+    font-size: 32px !important;
   }
   .buttons {
     bottom: 10px;
@@ -124,8 +124,8 @@
   }
 
   .buttons img {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
   }
 
   .btn-custom {

@@ -15,7 +15,7 @@ function Contactus() {
     return (
         <>
 
-
+  <div className="page-wrapper d-flex flex-column min-vh-100">
             <div>
                 <h2 className="mt-3 mb-3 text-center loc">Our Location</h2>
                 <div className="container-fluid position-relative">
@@ -133,8 +133,8 @@ function Contactus() {
                     </div>
 
                 </footer>
-                <div className="bg-light  d-flex justify-content-center align-items-center copyright" 
-                style={{position:'fixed', bottom:0, width:'100%', height:'50px', zIndex:1000}}>
+            </div>
+                <div className="bg-light py-2 d-flex justify-content-center align-items-center copyright" >
                     <p className="mb-0 text-center">
                         Copy Right Bright View Eye Care Hospital.com
                     </p>
