@@ -25,11 +25,11 @@ function AboutUsPage() {
 
       <div className="container mt-5">
         <div className="row ">
-          <div className="col-md-6 px-3">
+          <div className="col-md-6 px-2">
             <img src={image2} alt="img" className="image-fluid " />
           </div>
-          
-          <div className="col-md-6">
+
+          <div className="col-md-6 px-1">
             <h5 className="h5we">Who We Are</h5>
             <h1 className="tit">
               We Make A Difference <br />
