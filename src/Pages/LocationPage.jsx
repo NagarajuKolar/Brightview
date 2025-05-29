@@ -5,7 +5,8 @@ import direction from '../Statics/Images/direction.png';
 import Mail from '../Statics/Images/locmail.svg';
 import Loc from '../Statics/Images/loca.svg';
 import call from '../Statics/Images/call.svg';
-import '../CSS/Locationpage.css'
+import '../CSS/LocationPage.css'
+
 import Footer from '../Components/Footer';
 function LocationPage() {
     return (
