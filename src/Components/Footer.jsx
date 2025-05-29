@@ -9,17 +9,18 @@ import review from '../Statics/Images/review.svg';
 import logohos from '../Statics/Images/logohos.svg';
 import direction from '../Statics/Images/direction.png';
 import { Link } from 'react-router-dom';
+import eye from '../Statics/Images/bg-eye.png';
 function Footer() {
   return (
     <>
-                <div className=" bg-grey">
-                <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+                <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5  foot w-100 d-flex justify-content-center align-items-center"
+                    style={{ backgroundImage: `url(${eye})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', }}>
 
-                    <div className="col-md-3 mb-3 ms-5">
+                    <div className="col-md-3 mb-3 ">
                         <img className="img-fluid px-3" src={logohos} alt="map" />
                         <p>We Are Dedicated To Preserving And Enhancing <br />
                             Your Vision With Compassionate,Expert Care
-                            </p>
+                        </p>
                         <img className="img-fluid px-0" src={all} alt="map" />
                     </div>
 
@@ -67,7 +68,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="col mb-3" >
-                        <h5 className="fw-bold">Contact Us</h5>
+                        <h5 className="fw-bold ">Contact Us</h5>
                         <ul className="nav flex-column">
                             <li className="nav-item mb-3">
                                 <a href="#" className="nav-link p-0 text-body-secondary"><img className="img-fluid pe-2" src={phonelogo} alt="map" />7277570490</a>
@@ -77,7 +78,7 @@ function Footer() {
                             </li>
                             <li className="nav-item mb-3">
                                 <a href="#" className="nav-link p-0 text-body-secondary d-flex">
-                                    <img className="img-fluid pe-2"style={{marginBottom:"55px"}} src={locationlogo} alt="map" />
+                                    <img className="img-fluid pe-2" style={{ marginBottom: "55px" }} src={locationlogo} alt="map" />
                                     <div>
                                         <div>H.O.6-3-1092/A, A-Block,</div>
                                         <div>Shanti Sikhara Apartments, Somajiguda.</div>
@@ -90,7 +91,11 @@ function Footer() {
 
                 </footer>
 
-            </div>
+                <div className="bg-light py-2 d-flex justify-content-center align-items-center copyright" >
+                    <p className="mb-0 text-center">
+                        Copy Right Bright View Eye Care Hospital.com
+                    </p>
+                </div>
     </>
   )
 }

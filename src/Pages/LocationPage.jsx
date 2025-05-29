@@ -5,13 +5,21 @@ import direction from '../Statics/Images/direction.png';
 import Mail from '../Statics/Images/locmail.svg';
 import Loc from '../Statics/Images/loca.svg';
 import call from '../Statics/Images/call.svg';
-
+import '../CSS/Locationpage.css'
 import Footer from '../Components/Footer';
 function LocationPage() {
     return (
         <>
-            <div >
-                <img src={Locationmap} alt="map" className="image-fluid w-100" style={{ height: "428px" }} />
+
+
+            <div className="image-container position-relative">
+                <img src={Locationmap} alt="img" className="img-fluid w-100 image" />
+                <div className="effect">
+                    <div className="text position-absolute top-50 start-50 translate-middle text-white text-center">
+                        <p className="mb-1">Home/Location</p>
+                        <h1 className="fw-bold"> Location </h1>
+                    </div>
+                </div>
             </div>
 
             <div className="container mt-5 border shadow" style={{ width: '1265px', height: '527px' }}>
@@ -51,37 +59,83 @@ function LocationPage() {
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    <div className="col-md-4">
-                             <form  className=" boxloc px-3 " >
-                                <h4 className=" mt-3 mb-4 fw-bold">Send us a message</h4>
-                                <div className="mb-4">
-                                    <label className="form-label">Full Name <span className="text-danger">*</span></label>
-                                    <input type="text" className="form-control" placeholder="Raj" />
-                                </div>
-                                <div className="mb-4">
-                                    <label className="form-label">Enter Email <span className="text-danger">*</span></label>
-                                    <input type="email" className="form-control" placeholder="Raj***123@Gmail.Com" />
-                                </div>
-                                <div className="mb-4">
-                                    <label className="form-label">Enter Phone <span className="text-danger">*</span></label>
-                                    <input type="text" className="form-control" placeholder="+91 8179118528" />
-                                </div>
-                                <div className="mb-4">
-                                    <textarea className="form-control" rows="3" placeholder="Write A Message"></textarea>
-                                </div>
-                                <button type="submit" className="btn btn-primary fw-bold rounded-pill w-100 ">Send Message</button>
-                            </form>
+                    <div className="col-md-4 contact">
+                        <form className=" boxloc  " >
+                            <h4 className=" mb-4 mt-2  send ">Send us a message</h4>
+                            <div className="mb-4">
+                                <label className="form-label labels">Full Name <span className="text-danger">*</span></label>
+                                <input type="text" className="form-control" placeholder="Raj" />
+                            </div>
+                            <div className="mb-4">
+                                <label className="form-label labels">Enter Email <span className="text-danger">*</span></label>
+                                <input type="email" className="form-control" placeholder="Raj***123@Gmail.Com" />
+                            </div>
+                            <div className="mb-4">
+                                <label className="form-label labels">Enter Phone <span className="text-danger">*</span></label>
+                                <input type="text" className="form-control" placeholder="+91 8179118528" />
+                            </div>
+                            <div className="mb-4">
+                                <textarea className="form-control" rows="3" placeholder="Write A Message"></textarea>
+                            </div>
+                            <button type="submit" className="btn btn-primary fw-bold rounded-pill w-100 ">Send Message</button>
+                        </form>
                     </div>
                 </div>
 
             </div>
 
-            <div style={{height:'182px' }} className='bg-primary mt-5'>
-              
-            </div>
-             <Footer />
+<div className="bg-primary contact-container text-white mt-5 d-flex align-items-center justify-content-center">
+  <div className="container">
+    <div className="row text-center justify-content-center">
+      
+      
+      <div className="col-12 col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0">
+        <div className="d-flex align-items-center">
+          <div className=" me-3">
+            <img src={call} alt="contact" style={{width:'56px',height:'56px'}} />
+          </div>
+          <div className="text-start">
+            <strong>Contact</strong><br />
+            720757049
+          </div>
+        </div>
+      </div>  
+      <div className="col-12 col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0">
+        <div className=" d-flex align-items-center">
+          <div className="pt-1 me-3">
+            <img src={Mail} alt="" style={{width:'56px',height:'56px'}} />
+          </div>
+          <div className="text-start">
+            <strong>Mail</strong><br />
+            Netrapurandhan@Gmail.Com
+          </div>
+        </div>
+      </div>
+      <div className="col-12 col-md-4 d-flex align-items-center justify-content-center">
+        <div className="d-flex align-items-center">
+          <div className="me-3">
+            <img src={Loc} alt=""style={{width:'56px',height:'56px'}}  />
+          </div>
+          <div className="text-start">
+            <strong>Location</strong><br />
+            H.O.6-3-1092/A, A-Block,<br />
+            Shanti Sikhara Apartments, Somajiguda.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+            <Footer />
         </>
 
     )

@@ -5,6 +5,19 @@
 body {
   overflow-x: hidden;
 }
+footer{
+  padding: 0px !important;
+}
+.foot{
+  height: 507px;
+  width: 1440px;
+  position: relative; 
+  background-color: #b2969612;
+}
+.loc{
+      font-size: 36px;
+    font-weight: 700;
+}
 
 @media (max-width: 768px) {
   .position-absolute.bg-white {
@@ -30,7 +43,10 @@ footer .col {
     max-width: 120px;
     height: auto;
   }
-
+  .foot {
+    width: 100% !important; 
+    height: auto !important; 
+  }
   footer h5 {
     font-size: 1.2rem;
   }
@@ -46,6 +62,23 @@ footer .col {
     display: flex;
     flex-direction: column;
   }
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.copyright {
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 14px;
+  padding: 10px 0;
+  margin-top: auto;
+  width: 100%;
+   flex-shrink: 0; 
+}
+
 
   footer .col-md-3,
   footer .col {
@@ -71,4 +104,5 @@ footer .col {
   .position-absolute.bg-white img {
     height: 25px;
   }
+  
 }

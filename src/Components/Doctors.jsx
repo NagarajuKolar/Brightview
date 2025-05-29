@@ -42,8 +42,8 @@ function Doctors() {
                           />
                         </div>
                         <div className="pt-4">
-                          <h5 className="fw-bold mb-1">{doctor.name}</h5>
-                          <p className="text-muted small mb-0">{doctor.specialty}</p>
+                          <h5 className="fw-bold mt-1 mb-0">{doctor.name}</h5>
+                          <p className="text-muted mt-0 mb-1">{doctor.specialty}</p>
                         </div>
                       </div>
                     </div>
@@ -67,8 +67,8 @@ function Doctors() {
                           />
                         </div>
                         <div className="pt-4">
-                          <h5 className="fw-bold mb-1">{doctor.name}</h5>
-                          <p className="text-muted small mb-0">{doctor.specialty}</p>
+                          <h5 className="fw-bold mt-1 mb-0">{doctor.name}</h5>
+                          <p className="text-muted small mt-0 mb-1">{doctor.specialty}</p>
                         </div>
                       </div>
                     </div>
@@ -92,8 +92,8 @@ function Doctors() {
                           />
                         </div>
                         <div className="pt-4">
-                          <h5 className="fw-bold mb-1">{doctor.name}</h5>
-                          <p className="text-muted small mb-0">{doctor.specialty}</p>
+                          <h5 className="fw-bold mt-1 mb-0">{doctor.name}</h5>
+                          <p className="text-muted small mt-0 mb-1">{doctor.specialty}</p>
                         </div>
                       </div>
                     </div>
@@ -107,10 +107,10 @@ function Doctors() {
         </div>
 
         <button className="carousel-control-prev" type="button" data-bs-target="#doctorCarousel" data-bs-slide="prev">
-          <span style={{borderRadius:"20px"}} className="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+          <span  className="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
         </button>
         <button className="carousel-control-next" type="button" data-bs-target="#doctorCarousel" data-bs-slide="next">
-          <span style={{borderRadius:"20px"}} className="carousel-control-next-icon bg-primary p-1" aria-hidden="true"></span>
+          <span  className="carousel-control-next-icon bg-primary p-1" aria-hidden="true"></span>
         </button>
       </div>
 

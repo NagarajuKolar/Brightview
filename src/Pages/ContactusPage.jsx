@@ -6,18 +6,28 @@ import '../CSS/contactuspage.css'
 function ContactusPage() {
     return (
         <>
-            <div >
-                <img src={Contactimage} alt="img" className="image-fluid w-100" />
-            </div>
-            <div className="container mt-5">
-                <div className="row">
-                    <div className="col">
-                        <img src={Doctorimg} alt="img" />
+
+
+            <div className="image-container position-relative">
+                <img src={Contactimage} alt="img" className="img-fluid w-100 image" />
+                <div className="effect">
+                    <div className="text position-absolute top-50 start-50 translate-middle text-white text-center">
+                        <p className="mb-1">Home / Contact Us</p>
+                        <h1 className="fw-bold"> Contact </h1>
                     </div>
-                    <div className="col d-flex justify-content-center align-items-center">
+                </div>
+            </div>
+
+
+            <div className=" mt-3 mb-5 " style={{width:"1149px", height:"671",marginLeft:'145px'}}>
+                <div className="row">
+                    <div className="col-md-6">
+                        <img src={Doctorimg} alt="img" style={{width:"640px", height:"671"}}/>
+                    </div>
+                    <div className="col-md-6 d-flex justify-content-center align-items-center">
                         <div >
 
-                            <form  className=" box shadow rounded px-3 " >
+                            <form className=" box shadow rounded px-3 " >
                                 <h4 className=" mt-3 mb-4 fw-bold">Send us a message</h4>
                                 <div className="mb-4">
                                     <label className="form-label">Full Name <span className="text-danger">*</span></label>

@@ -1,17 +1,5 @@
-/* .contact-container{
-    width:"1149px";
-     height:"671";
-     margin-left:'145px'
-    } */
-
-.box{
-    width: 398px !important;
-    height: 514px !important;
-   border: 1px  rgb(233, 206, 206);
-   margin-left: 77px;
-}
 .image-container {
-  height: 432px; 
+  height: 428px; 
   overflow: hidden;
 }
 .image {
@@ -32,3 +20,22 @@
 .text {
   z-index: 2; 
 }
+.boxloc{
+   padding-left: 33px;
+    height: 514px;
+    width: 398px;
+}
+.labels{
+    font-size: 18px;
+    font-weight: 400;
+}
+.send{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+.contact-container {
+  height: 182px;
+}
+

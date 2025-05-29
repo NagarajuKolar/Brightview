@@ -18,7 +18,7 @@ function Contactus() {
             <div className="page-wrapper d-flex flex-column min-vh-100">
                 <div>
                     <h2 className="mt-3 mb-3 text-center loc">Our Location</h2>
-                    <div className="container-fluid position-relative">
+                    <div className="container-fluid  mt-2 position-relative">
                         <iframe className="img-fluid" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10447.978740467892!2d78.4430151908565!3d17.432095971015798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1748241595187!5m2!1sen!2sin"
                             style={{ width: '100%', height: '600px' }}
                             allowFullScreen=""
@@ -137,6 +137,7 @@ function Contactus() {
                         Copy Right Bright View Eye Care Hospital.com
                     </p>
                 </div>
+                
             </div>
 
 

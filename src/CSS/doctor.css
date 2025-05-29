@@ -8,7 +8,7 @@
     padding-top: 12px !important;
     border-radius: 8px;
     text-align: center;
-    color: white;
+   
 }
 .carousel-control-next, .carousel-control-prev {
     position: absolute;
@@ -25,7 +25,7 @@
     background: 0 0;
     filter: var(--bs-carousel-control-icon-filter);
     border: 0;
-    opacity: .5;
+    opacity: 1.0;
     transition: opacity .15s ease;
 }
 .cal-icon {
