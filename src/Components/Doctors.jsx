@@ -8,8 +8,21 @@ import nu2 from '../Statics/Images/nu2.png';
 import nu3 from '../Statics/Images/nu3.png';
 import '../CSS/doctor.css';
 import book from '../Statics/Images/book.svg';
+import { useEffect } from 'react';
+import { Carousel } from 'bootstrap';
 
 function Doctors() {
+    useEffect(() => {
+    const isMobile = window.innerWidth < 768;
+    const carouselElement = document.getElementById('doctorCarousel');
+
+    if (isMobile && carouselElement) {
+      const carouselInstance = Carousel.getInstance(carouselElement);
+      if (carouselInstance) {
+        carouselInstance.dispose(); // Fully disables carousel behavior
+      }
+    }
+  }, []);
   const doctors = [
     { image: doctor1, name: 'Dr. Jholian', specialty: 'Glaucoma' },
     { image: doctor2, name: 'Dr. Laurance', specialty: 'Clarivu Eye' },
@@ -25,7 +38,7 @@ function Doctors() {
         </h2>
 
         <div className="container position-relative">
-          <div id="doctorCarousel" className="carousel slide" data-bs-ride="carousel">
+          <div id="doctorCarousel"className={`carousel ${window.innerWidth < 768 ? '' : 'slide'}`} data-bs-ride={window.innerWidth < 768 ? '' : 'carousel'} data-bs-interval="false">
             <div className="carousel-inner d-carou">
               <div className="carousel-item  active">
                 <div className="row justify-content-center">
@@ -52,7 +65,7 @@ function Doctors() {
                 </div>
               </div>
 
-              <div className="carousel-item ">
+              <div className="carousel-item mobile-carousel ">
                 <div className="row justify-content-center">
                   {doctors.map((doctor, index) => (
                     <div className="col-md-3 px-1 d-flex justify-content-center" key={index}>
@@ -77,7 +90,7 @@ function Doctors() {
                 </div>
               </div>
 
-              <div className="carousel-item ">
+              <div className="carousel-item  mobile-carousel">
                 <div className="row justify-content-center">
                   {doctors.map((doctor, index) => (
                     <div className="col-md-3 px-1 d-flex justify-content-center" key={index}>

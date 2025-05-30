@@ -24,12 +24,12 @@ function Head() {
             Book An Appointment
           </button>
         </div>
-        <div className="buttons ">
+        <div className="buttons position-fixed">
           <button type="button" onClick={() => setShowAppointment(true)} className="btn btn-primary  rounded-pill me-2">
             <img src={book} alt="img" className="image-fluid  px-1" />Book An Appointment
           </button>
           {showAppointment && <Appointment onClose={() => setShowAppointment(false)} />}
-          <button type="button" className="btn btn-success  wts-btn rounded-pill me-2">
+          <button type="button" className="btn btn-success   wts-btn rounded-pill me-2">
             <img src={whatsapp} alt="img" className="image-fluid px-1" /> Chat With Us
           </button>
         </div>

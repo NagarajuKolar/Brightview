@@ -8,12 +8,15 @@ import Eye from '../Statics/Images/Eye.png'
 import Mission from '../Statics/Images/Mission.svg';
 import HandshakeLogo from '../Statics/Images/handshake.svg';
 import Footer from '../Components/Footer';
+import Navbar from '../Components/Navbar';
 import '../CSS/AboutusPage.css'
 function AboutUsPage() {
   return (
     <>
-      <div className="image-container position-relative">
-        <img src={image} alt="img" className="img-fluid w-100 image" />
+     
+    
+      <div className="about-container position-relative">
+        <img src={image} alt="img" className="img-fluid w-100 aboutimage" />
         <div className="effect">
           <div className="text position-absolute top-50 start-50 translate-middle text-white text-center">
             <p className="mb-1">Home / About Us</p>
@@ -23,13 +26,13 @@ function AboutUsPage() {
       </div>
 
 
-      <div className="container mt-5">
+      <div className="container mob-con mt-5">
         <div className="row ">
           <div className="col-md-6 px-2">
-            <img src={image2} alt="img" className="image-fluid " />
+            <img src={image2} alt="img" className="image-fluid aboutimag" />
           </div>
 
-          <div className="col-md-6 px-1">
+          <div className="col-md-6 about-content px-1">
             <h5 className="h5we">Who We Are</h5>
             <h1 className="tit">
               We Make A Difference <br />
@@ -40,7 +43,7 @@ function AboutUsPage() {
               Managing, And Preventing Various Eye Conditions And Vision Problems.
             </p>
 
-            <div className='mt-5 d-flex '>
+            <div className='mt-5 icon-row d-flex  '>
               <img src={servimage} alt="surimage" style={{ width: "74px", height: "74px" }} className='image-fluid pe-2 ' />
               <div className='dash-line mx-3 '></div>
               <img src={surimage} alt="surimage" style={{ width: "74px", height: "74px" }} className='image-fluid ' />
@@ -81,7 +84,7 @@ function AboutUsPage() {
 
 
 
-      <div className="container mt-5">
+      <div className="container mobile-about mt-5">
         <div className="row  w-100">
           <div className="col-md-6">
            <h2 className='custom-underline text-start text-primary pb-3 mb-2'>Mission & Vision</h2>
@@ -95,7 +98,7 @@ function AboutUsPage() {
             </div>
           </div>
           <div className="col-md-6">
-            <img src={Eye} alt="img" className="image-fluid " />
+            <img src={Eye} alt="img" className="image-fluid eyeimage" />
           </div>
         </div>
       </div>

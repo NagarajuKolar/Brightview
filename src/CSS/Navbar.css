@@ -1,6 +1,7 @@
 .navbar-ap {
     margin-right: 25px !important;
 }
+
 .navbar-nava {
   display: flex !important;
   gap: 34px;
@@ -14,9 +15,12 @@
 }
 .container-fluid.bg-white {
   overflow: visible !important;
-  position: relative !important;
+  position: fixed !important;
   z-index: 1000;
+  max-width: 100%;
 }
+
+
 .nav-item.dropdown {
   position: relative;
 }
@@ -120,7 +124,13 @@
 .location-bar{
   padding: 0px !important;
 }
-
+.container-fluid{
+  max-width: 100%;
+}
+    .hospi-image {
+        height: 350px !important;
+        object-fit: cover !important;
+    }
   .dropdown-menu {
     position: static !important;  
     width: 100%;

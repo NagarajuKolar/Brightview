@@ -8,8 +8,8 @@ function ContactusPage() {
         <>
 
 
-            <div className="image-container position-relative">
-                <img src={Contactimage} alt="img" className="img-fluid w-100 image" />
+            <div className="contactpage-container position-relative">
+                <img src={Contactimage} alt="img" className="img-fluid w-100 contactpage-image" />
                 <div className="effect">
                     <div className="text position-absolute top-50 start-50 translate-middle text-white text-center">
                         <p className="mb-1">Home / Contact Us</p>
@@ -19,15 +19,15 @@ function ContactusPage() {
             </div>
 
 
-            <div className=" mt-3 mb-5 " style={{width:"1149px", height:"671",marginLeft:'145px'}}>
-                <div className="row">
-                    <div className="col-md-6">
-                        <img src={Doctorimg} alt="img" style={{width:"640px", height:"671"}}/>
+            <div className=" mt-3 mb-5 con-cont " style={{width:"1149px", height:"671",marginLeft:'145px'}}>
+                <div className="row con-row">
+                    <div className="col-12 col-md-6 contact-col">
+                        <img src={Doctorimg} alt="img"  className="contact-doctor"style={{width:"640px", height:"671"}}/>
                     </div>
-                    <div className="col-md-6 d-flex justify-content-center align-items-center">
+                    <div className=" col-12 col-md-6 d-flex justify-content-center align-items-center">
                         <div >
 
-                            <form className=" box shadow rounded px-3 " >
+                            <form className=" box contact-box shadow rounded px-3 " >
                                 <h4 className=" mt-3 mb-4 fw-bold">Send us a message</h4>
                                 <div className="mb-4">
                                     <label className="form-label">Full Name <span className="text-danger">*</span></label>
