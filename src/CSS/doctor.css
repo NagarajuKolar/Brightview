@@ -56,11 +56,7 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  .mobile-carousel , 
-  .carousel-control-prev, 
-  .carousel-control-next {
-    display: none !important;
-  }
+  
 
   .news-card {
     margin-bottom: 20px;
