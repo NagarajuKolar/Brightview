@@ -15,9 +15,9 @@ function Head() {
   const [showAppointment, setShowAppointment] = useState(false);
   return (
     <>
-      <div className="container-fluid p-0 m-0 w-100">
-        <img src={Hospi} alt="img " className="image hospi-image" />
-        <div className="text mobile-text">
+      <div className="container p-0 headtop ">
+        <img src={Hospi} alt="img " className="hospi-image" />
+        <div className="text ms-5 mobile-text">
           <h1>Eye Specialists  </h1>
           <h1>You Can <span className="span">Trust</span></h1>
           <button type="button" onClick={() => setShowAppointment(true)} className="btn btn-primary fw-bold  btn-custom d-none d-md-block  me-2">

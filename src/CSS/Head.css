@@ -1,4 +1,4 @@
-.container-fluid {
+.headtop {
   position: relative;
   width: 100%;
   max-width: 100%;
@@ -17,17 +17,23 @@
   border-radius: 50px;
 
 }
-.image {
+.hospi-image{
+  width: 100%;
+  margin-top: 100px;
+
+}
+/* .image {
   width: 100%;
   height: auto;
-  display: block;
+  margin-top: 100px;
   position: relative;
   z-index: 1;
-}
+  filter: none !important;
+} */
 
 .buttons {
   position: absolute;
-  bottom: 80px;
+  bottom: 90px;
   right: 45px;
   z-index: 10;
   display: flex;
@@ -87,7 +93,7 @@
 
 @media (max-width: 768px) {
   .text h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.4rem;
   }
 
@@ -96,10 +102,16 @@
     padding: 0 0.5rem;
   }
 
+  .aboutimage {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: fill !important; 
+  display: block;
+}
   .hospi-image {
+
     height: 350px;
-    
-    object-fit: cover;
+    /* object-fit: cover; */
   }
 
   .buttons {
@@ -129,3 +141,53 @@
     display: none !important;
   }
 }
+
+
+ @media (max-width: 576px) {
+.headtop {
+  height: 400px !important;
+  overflow: hidden;
+}
+.text {
+    position: absolute;
+        top: 60%;
+        left: 46%;
+        transform: translate(-70%, -29%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    padding: 0 1rem;
+    z-index: 10;
+    max-width: 90%;
+}
+
+.hospi-image {
+  width: 100% !important;
+  object-fit: fill !important; 
+  display: block;
+  margin-top: 130px;
+}
+.buttons {
+  position: absolute;
+  bottom: 80px;
+  right: 45px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+  .buttons .btn {
+    font-size: 0.85rem;
+    padding: 8px 12px;
+    gap: 5px;
+    white-space: nowrap;
+  }
+
+  .buttons img {
+        width: 25px;
+        height: 28px;
+  }
+
+ }
+
+  

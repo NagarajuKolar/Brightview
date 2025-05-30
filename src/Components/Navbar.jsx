@@ -48,7 +48,7 @@ function Navbar() {
 
 
 
-                <header className="navbar navbar-expand-md navbar-light bg-white  w-100 py-1">
+                <header className="navbar navbar-expand-md navbar-light bg-white  w-100 ">
                     <div className="container-fluid">
                         <a href="/" className="d-flex align-items-center text-decoration-none navbar-logo">
                             <img src={logohos} alt="Logo" width="80.66" height="60.57" />

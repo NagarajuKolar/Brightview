@@ -56,6 +56,31 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+ #doctorCarousel {
+    pointer-events: none;
+  }
+
+  .carousel-inner {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .carousel-item {
+    display: block !important;
+    opacity: 1 !important;
+    position: static !important;
+    transform: none !important;
+  }
+
+  .carousel-item:not(:first-child) {
+    display: none !important;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none !important;
+  }
   
 
   .news-card {
